@@ -1,0 +1,91 @@
+.logo-reprograma{
+   width: 250px;
+   padding-left: 0px;
+}
+
+.navbar-color{
+background-color:#462755;
+border-color:#462755;
+}
+
+body{
+    font-family: "Lato", sans-serif;
+    background-color: #d0d0d0;
+    /*width: 100%;*/
+ }
+
+.navbar-nav > li > a {
+ font-size: 22px;
+ padding-top: 10px;
+ padding-bottom: 10px;
+ line-height: 20px;
+}
+.navbar-default .navbar-nav > li > a {
+    color:  #e7e7e7;
+}
+
+.navbar-toggle {
+    background-color: white;
+}
+
+.navbar-default .navbar-nav > li > a:hover{
+    background-color: white;
+}
+
+.margem-nav-bar
+{
+    margin-top: 50px;
+}
+.btn-default {
+    color: #333;
+    background-color:  hotpink;
+    border-color: #ccc;
+}
+
+.btn-default:hover{
+    background-color:#462755;
+    color: white;
+}
+
+.container-footer
+{
+    text-align: center;
+    padding-top: 10px;
+    background-color:#462755;
+    color: lightpink;
+	/*bottom: 0;
+	position: relative;*/
+  }
+
+footer {
+    bottom: 0;
+    width: 100%;
+    position: relative;
+}
+
+
+.align-botao{
+     margin-top: 15px;
+     margin-bottom: 50px;
+  }
+
+/* @media only screen and (max-width: 500px) {
+    .container {
+        width: 100%;
+    }
+    body{
+         background-color: red; 
+    }
+}
+
+@media only screen and (min-width: 800px) {
+    body{
+         background-color: yellow; 
+    }
+}
+
+@media only screen and (orientation: landscape) {
+    body{
+         background-color: purple; 
+    }
+} */

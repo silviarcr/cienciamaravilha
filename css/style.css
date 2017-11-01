@@ -1,0 +1,487 @@
+body{
+    margin: 0;
+    padding: 0;
+    max-width: 100%;
+    background-color: #ddd;
+    font-family: 'Roboto', sans-serif;
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Raleway', sans-serif;
+    height: 100%;
+    color:#213996;
+   }
+
+a{
+    color: #4497ca;
+    font-style: italic;
+ 
+}
+a:hover{
+    color: #AC07A3;
+}
+/*NAVBAR*/
+#logo-navbar img{
+   width: 60px;
+   height: 60px;
+}
+.logo-navbar-mobile{
+    display: none;
+}
+
+#menu-maravilha{
+    margin-top: 20px;
+}
+
+.navbar-default .navbar-nav > li > a{
+    /* color:#213996; */
+    color: #f31b1b;
+    font-family: 'Cabin Sketch';
+    font-size: 28px;
+}
+
+.navbar-default .navbar-nav > li > a:hover {
+   color: #00dad0;
+}
+
+.navbar-header > a:hover{
+    color: #AC07A3;
+}
+
+.navbar-default .navbar-toggle {
+    /* background-color: #6eb7ef; */
+    background-color: #ff4343;
+    border: 1px solid #D43A3A;
+    margin-left: 15px;
+}
+.glyphicon-color{
+    color: #7A7575;
+}
+.navbar-toggle{
+    position: relative;
+    float: left;
+}
+.navbar-collapse{
+    padding-left: 0px;
+}
+.navbar-default .navbar-toggle:hover {
+    border: 1px solid #61B8CF;
+    background-color: #AFCADF;
+}
+.navbar-default .navbar-toggle:focus {
+    background-color: #BECEE4;
+    border: 1px solid #9FD1EE;
+}
+
+/*FIM NAVBAR*/
+
+/*SECTION BANNER*/
+#banner{
+    background: url("../img/bcg_img_header.jpg") no-repeat center;
+    background-size: cover;
+    height: 100vh;
+    width: 100%;
+    /*width: 100vh;*/
+    margin: 0;
+    padding: 0;
+}
+/*FIM SECTION BANNER*/
+
+/*SECTION MISSAO*/
+#missao{
+   border-bottom: 1px groove #80c2af; 
+   padding: 60px 0 60px 0;
+   margin: 0 auto;
+   font-size: 24px;
+   font-weight: bold;
+}
+
+.texto-missao{
+    text-align: justify;
+    margin-bottom: 40px;
+}
+.texto-missao a{
+    color: #D83E3E;
+}
+
+.texto-missao a:hover{
+    color: #AC07A3;
+    text-decoration: none;
+}
+
+h1{
+    margin: 40px 0 40px 0;
+    font-family: 'Cabin Sketch';
+    color: #213996;
+    font-size: 60px;
+}
+
+#myCarousel img{
+    max-width: 1200px;
+    max-height: 720px;
+ }
+/*FIM SECTION MISSAO*/
+
+/*SECTION VIDEOS*/
+.videos{
+  padding-top: 60px;
+  font-size: 20px;
+  font-weight: bold;
+  text-align: justify;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+}
+
+.texto-videos{
+    padding-top: 30px;
+}
+
+.titulo-videos{
+    font-family: 'Cabin Sketch';
+    color: #213996;
+    font-weight: bold;
+    font-size: 25px;
+    text-align: center;
+    padding-top: 10px 0 10px 0;
+    margin: 10px 0 10px 0;
+}
+
+iframe{
+    border: 1px solid grey;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+/*SECTION NEWSLETTER*/
+#newsletter{
+   border-top:  1px groove #80c2af;
+   border-bottom: 1px groove #80c2af;
+   background-color: #ddd;
+   margin-top: 60px;
+   padding: 10px 0 20px 0;
+}
+
+#newsletter h3{
+    font-size: 22px;
+    font-weight: bold;
+    color:#213996;
+    font-family: 'Cabin Sketch';
+}
+
+#newsletter a:hover{
+    color: #AC07A3;
+    text-decoration: none;
+}
+
+#newsletter input{
+    font-size: 18px;
+    font-weight: bold;
+    color:#213996;
+}
+  
+.form-control{
+    border: 1px solid gray;
+    background-color: #fff;
+}
+
+#usr{
+   width: 300px;
+   height: 40px;
+   font-style: italic;
+   font-family: 'Roboto'
+} 
+
+#email{
+   width: 300px;
+   height: 40px;
+   font-style: italic;
+   font-family: 'Roboto';
+}
+
+.botao-form-news{
+   color: #213996;
+   cursor: pointer;
+}
+
+.botao-form-news:hover{
+  background-color: #F335AA;
+}
+/* FIM SECTION NEWSLETTER */
+
+/* FOOTER */
+
+#rodape{
+    padding: 20px 0 30px 0;
+    background-color: #ddd;
+    text-align: center;
+}
+
+.contato-rodape{
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.contato-rodape >p >a:hover{
+   text-decoration: none;
+}
+
+.img-rodape {
+width: 50px;
+height: 50px;
+margin-left: 10px 0 0 6px;
+}
+ /* FIM RODAPE */
+
+/* MEDIA QUERY  */
+/* Telefones em landscape e abaixo */
+@media only screen and (max-width: 480px) {
+    body{
+        background-color: #ddd;
+    }
+    
+    .container {
+        width: 100%;
+    }
+
+    .navbar-color{
+        background-color: #ddd;
+        border: 0px;
+    }
+
+    .navbar-default .navbar-nav > li > a{
+        font-size: 12px;
+    }
+    .logo-navbar-mobile{
+        display: inline-block;
+        float: right;
+        margin-top: 10px;
+        margin-right: 10px;
+    }
+    #sessao-banner{
+        max-height: 250px;
+    }
+
+    #banner{
+        background-size: contain;
+        height: 100%;
+        min-height: 300px;
+        width: 100%;
+        padding: 0;
+        margin: 0 auto;
+        animation-name: unset;
+    }
+    
+    #missao{
+        font-size: 10px;
+        padding-top: 0px;
+        margin-top: 0px;
+    }
+    #missao h1{
+        font-size: 25px;
+    }
+    .videos h1{
+        font-size: 25px;
+    }
+    .texto-videos{
+        padding-top: 0px;
+        padding-bottom: 0px;
+        margin: 0px;
+        display: none;
+    }
+    .titulo-videos{
+       text-align: center;
+       font-size: 15px;
+       margin-top: 0px;
+    }
+     #newsletter{
+        padding-top: 0;
+        margin: 5px;
+    }
+    #newsletter h3{
+        font-size: 15px;
+    }
+    .form-control{
+        width: 200px;
+        margin: 0 auto;
+    }
+    .form-control input[type="email"]{
+        width: 100%;
+        margin-bottom: 10px;
+    }
+    .form-control input[type="submit"]{
+        width: 100%;
+    }
+    #usr{
+        width: 250px;
+        height: 40px;
+        font-style: italic;
+        font-family: 'Roboto'
+    } 
+
+    #email{
+        width: 250px;
+        height: 40px;
+        font-style: italic;
+        font-family: 'Roboto';
+    }
+    .contato-rodape{
+        font-size: 15px;
+    }
+    .copyright{
+        display: block;
+    }
+    .img-rodape {
+        width: 35px;
+        height: 35px;
+        margin-left: 10px 0 0 6px;
+    }
+  }  
+/*Telefone em landscape a tablet em portrait*/
+@media only screen and (max-width: 770px) 
+{
+    body{
+        background-color: #ddd;
+    }
+    .container {
+        width: 100%;
+    }
+    .navbar-color{
+        background-color: #ddd;
+        border: 0px;
+    }
+    .navbar-header {
+        float: none;
+    }
+    
+    .navbar-toggle {
+        display: block;
+    }
+    .navbar-collapse {
+        border-top: 1px solid transparent;
+        box-shadow: inset 0 1px 0 rgba(255,255,255,0.1);
+    }
+    .navbar-nav {
+        float: none;
+        margin: 7.5px -15px;
+    }
+    .navbar-nav > li {
+        float: none;
+    }
+    .navbar-nav > li >a {
+        padding-top: 10px;
+        padding-bottom: 10px;
+      }
+    .navbar-default .navbar-nav > li > a{
+        font-size: 15px;
+     }
+     .logo-navbar-mobile{
+        display: inline-block;
+        float: right;
+        margin-top: 10px;
+        margin-right: 10px;
+        margin-bottom: 20px;
+    }
+    #menu-maravilha-contato{
+         display: none!important;
+     }
+    #banner{
+        background-size: contain;
+        padding-bottom: 0px;
+        margin-bottom: 0px;
+        animation-name: unset;
+    }
+    #myCarousel{
+        display: none;
+    }
+    #missao{
+        font-size: 15px;
+        padding-top: 0px;
+        padding-bottom: 0px;
+        margin-bottom: 0px;
+    }
+    h1{
+        margin-top: 0px;
+        font-size: 30px;
+        margin-bottom: 10px;
+        padding-top: 0px;
+    }
+   
+    .texto-missao{
+        padding-top: 0px;
+        margin-bottom: 20px;
+    }
+    .videos{
+        padding-top: 10px;
+        font-size: 15px;
+    }
+    .videos h1{
+        padding-top: 0px;
+        margin-top: 5px;
+        margin-bottom: 10px;
+    }
+    .texto-videos{
+        padding-top: 10px;
+        padding-bottom: 10px;
+        margin-bottom: 10px;
+    }
+    #newsletter h3{
+        font-size: 18px;
+    }
+    #newsletter input{
+        font-size: 15px;
+    }
+    .form-control{
+        width: 200px;
+        margin: 0 auto;
+    }
+    .form-control input[type="email"]{
+        width: 100%;
+        margin-bottom: 10px;
+    }
+    .form-control input[type="submit"]{
+        width: 100%;
+    }
+   .contato-rodape{
+        font-size: 15px;
+    }
+    .img-rodape {
+        width: 35px;
+        height: 35px;
+        margin-left: 10px 0 0 6px;
+    }
+}
+/* Tablet  desktop */
+@media only screen and (min-width: 771px) and (max-width: 979px) {
+    .container {
+        width: 100%;
+    }
+    .navbar-default .navbar-nav > li > a{
+         font-size: 20px;
+    }
+    h1{
+        font-size: 40px;
+    }
+    #missao{
+       font-size: 18px;
+    }
+    #myCarousel{
+        width: 100%;
+    }
+    #myCarousel img{
+       /*max-width: 80%;*/
+       max-height: 80%;
+       width: 100%;
+    }
+    .videos{
+        padding-top: 60px;
+        font-size: 20px;
+        font-weight: bold;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+   }
+      
+}
